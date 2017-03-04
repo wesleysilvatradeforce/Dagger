@@ -17,6 +17,7 @@ public class ApplicationCustom extends Application {
                 .appModule(new AppModule(this))
                 .netModule(new NetModule("http://www.google.com"))
                 .build();
+
     }
 
     public AppComponent getComponent(){
